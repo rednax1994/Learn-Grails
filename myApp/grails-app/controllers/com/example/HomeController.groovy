@@ -2,7 +2,14 @@ package com.example
 
 class HomeController {
 
-    static defaultAction = "homePage"
+    def index() {
+        respond([name: session.name ?: 'User', vehicleTotal: Vehicle.count()])
+    }
 
-    def index() { }
+    def updateName(String name){
+        session.name = name
+        flash.message = "Name has been updated"
+
+        redirect action: 'index'
+    }
 }
