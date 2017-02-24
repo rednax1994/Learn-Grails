@@ -1,0 +1,5 @@
+InvoicesList = React.createClass({
+    render() {
+
+    }
+})
