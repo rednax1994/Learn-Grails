@@ -1,0 +1,11 @@
+{
+  "name": "learn-nodejs-2",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node Server.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "nodemon": "^1.11.0"
+  }
+}

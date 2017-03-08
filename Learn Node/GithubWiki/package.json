@@ -1,0 +1,21 @@
+{
+  "name": "githubwiki",
+  "version": "1.0.0",
+  "description": "Wiki search engine",
+  "main": "index.js",
+  "dependencies": {
+    "commonmark": "^0.27.0",
+    "fs": "0.0.1-security",
+    "nodejs": "0.0.0",
+    "nvm": "0.0.4",
+    "path": "^0.12.7",
+    "stemmer": "^1.0.0",
+    "walk": "^2.3.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
